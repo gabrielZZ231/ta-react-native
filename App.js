@@ -10,13 +10,15 @@ import React from 'react';
 import {
   Text,
   View,
+  
 } from 'react-native';
+import T from './src/components/Title'
 
 
 const App = ()=>{
   return (
         <View>
-          <Text>OI</Text>
+          <T/>
         </View>
 
   );
